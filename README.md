@@ -16,8 +16,10 @@ sudo pacman -S ncurses
 # Установка
 Клонируйте репозиторий:
 ```git clone https://github.com/lorel800/te.git
+<<<<<<< HEAD
 cd te/
 ```
+
 Скомпилируйте программу:
 ```make```
 Для установки выполните комманду:
