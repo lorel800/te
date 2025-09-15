@@ -3,10 +3,10 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "WPtext/fileio.h"
-#include "WPtext/statusbar.h"
-#include "WPtext/display.h"
-#include "WPtext/data.h"
+#include "textEditor/fileio.h"
+#include "textEditor/statusbar.h"
+#include "textEditor/display.h"
+#include "textEditor/data.h"
 
 int main(int argc, char* argv[]) {
 
