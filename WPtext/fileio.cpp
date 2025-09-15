@@ -10,7 +10,7 @@ int filesave(const std::vector<std::wstring>& lines, const std::string& filename
         return 1;
     }
     
-    // Устанавливаем локаль для правильного сохранения широких символов
+    
     file.imbue(std::locale(""));
     
     for (const auto& line : lines) {
@@ -45,7 +45,7 @@ int fileload(std::vector<std::wstring>& lines, const std::string& filename) {
         return 1;
     }
     
-    // Устанавливаем локаль для правильного чтения широких символов
+    
     inputFile.imbue(std::locale(""));
     
     std::wstring line;

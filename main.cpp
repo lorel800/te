@@ -9,7 +9,7 @@
 #include "WPtext/data.h"
 
 int main(int argc, char* argv[]) {
-    // Устанавливаем локаль для поддержки юникода
+
     setlocale(LC_ALL, "");
     
     if (argc < 2){
@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
     locale_data.version = "1.0";
     getmaxyx(stdscr, locale_data.maxY, locale_data.maxX);
     
-    // Используем wstring для работы с широкими символами
+
     std::vector<std::wstring> lines;
 
     int load_result = fileload(lines, locale_data.filename);

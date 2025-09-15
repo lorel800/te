@@ -13,7 +13,7 @@ void displayText(const std::vector<std::wstring>& lines, int cursorY, int cursor
 
         if (lineIndex < (int)lines.size()) {
             mvprintw(i + 2, 0, "%4i|", lineIndex + 1);
-            // Используем mvaddwstr для вывода широких символов
+            
             mvaddwstr(i + 2, 5, lines[lineIndex].c_str());
         }
     }

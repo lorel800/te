@@ -3,7 +3,7 @@
 
 #include <string>
 
-// Структура для хранения данных о состоянии приложения
+
 typedef struct {
     std::string filename;
     std::string status;
