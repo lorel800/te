@@ -12,12 +12,12 @@ LDFLAGS = -lncursesw
 
 # Директории с исходными файлами
 SRCDIR = .
-WPTEXTDIR = textEditor
+TEXTDIR = textEditor
 
 # Список исходных файлов
 SRC_FILES = $(wildcard $(SRCDIR)/main.cpp)
-WPTEXT_FILES = $(wildcard $(WPTEXTDIR)/display.cpp $(WPTEXTDIR)/fileio.cpp $(WPTEXTDIR)/statusbar.cpp)
-SOURCES = $(SRC_FILES) $(WPTEXT_FILES)
+TEXT_FILES = $(wildcard $(TEXTDIR)/display.cpp $(TEXTDIR)/fileio.cpp $(TEXTDIR)/statusbar.cpp $(TEXTDIR)/editor.cpp)
+SOURCES = $(SRC_FILES) $(TEXT_FILES)
 
 # Список объектных файлов
 OBJECTS = $(SOURCES:.cpp=.o)
