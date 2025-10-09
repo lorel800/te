@@ -9,6 +9,7 @@
 #include "textEditor/data.h"
 #include "textEditor/editor.h"
 
+// New Era of TE 10/10/2025
 int main(int argc, char* argv[]) {
     setlocale(LC_ALL, "");
 
